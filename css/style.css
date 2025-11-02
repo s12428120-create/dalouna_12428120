@@ -1,0 +1,460 @@
+/* 
+ css/styles.css 
+ Student Name: Ahmad Nael dwaikat
+ Student Id: 12428120
+*/
+
+:root {
+    --bg: #faf7f2;
+    --text: hwb(0 12% 88%);
+    --muted: #6b6b6b;
+    --brand: #216869;
+    --brand-2: #49a078;
+    --card: #ffffff;
+    --border: #e9e3db;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Rubik", sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    color: var(--text);
+   background-color: #e9e3db;
+
+    line-height: 1.6;
+}
+.site-header {
+  
+  background-color: #e9e3db;      
+  border-bottom: 1px solid var(--border); 
+  position: sticky;                    
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;                       
+  justify-content: space-between;      
+  align-items: center;                
+  padding: 16px 60px;                 
+  max-width: 1200px;                  
+  margin: auto;                       
+}
+
+.logo {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--brand);                 
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;                    
+  display: flex;
+  gap: 30px;                          
+  margin: 0;
+}
+
+.nav-links a {
+    font-size:12px;
+  text-decoration: none;              
+  color: var(--brand);
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--brand-2);              
+}
+section img{
+  display: block;
+  margin: 0 auto;
+}
+.hero {
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+}
+
+.name {
+  color:hwb(0 12% 88%);
+  background-color: #49a078;
+  width:250px;
+  height:20px;
+  position: absolute;         
+  top: 30%;                   
+  left: 50%;                 
+  transform: translate(-50%, -50%); 
+  font-size: 14px;           
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+   border: 2px ;
+  border-radius: 12px;
+  padding: 2px;
+}
+.hello{
+  color:white;
+  position: absolute;         
+  top: 40%;                   
+  left: 50%;                 
+  transform: translate(-50%, -50%); 
+  font-size: 50px;           
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+   border: 2px ;
+  border-radius: 12px;
+  padding: 2px;
+  margin-top: 8px;
+}
+.prg{
+   color:white;
+  position: absolute;         
+  top: 50%;                   
+  left: 50%;                 
+  transform: translate(-50%, -50%);           
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px;
+  font-size:17px ;
+  border-radius: 10px;
+   border: 4px ;
+  border-radius: 12px;
+  padding: 2px;
+  margin-top: 30px;
+}
+.view{
+   color:#faf7f2;
+  background-color: #216869;
+  width:120px;
+  height:60px;
+  position: absolute;         
+  top: 60%;                   
+  left: 50%;                 
+  transform: translate(-50%, -50%);     
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px;
+  font-size:16px;
+  border: 2px ;
+  border-radius: 36px;
+  padding:2px;
+  margin-top:56px;
+  
+}
+#about{
+ 
+  display:flex;
+  
+}
+.box1{
+  background-color:#faf7f2;
+  width:550px;
+  height:400px;
+  font-size:20px;
+ margin-top:32px;
+ margin-left:128px;
+ padding-left: 20px;
+ border-radius: 30px;
+}
+.dal{
+  color:rgba(0, 0, 0, 0.23);
+  font-size:16px;
+}
+.fresh{
+  background:#ffffff;
+  
+  border-color:hwb(0 12% 88% / 0.242);
+  font-size:14px;
+  border-style: solid;
+  padding: 2px;
+  border-radius: 16px;
+  
+}
+.Wood{
+    background:#ffffff;
+  border-color:hwb(0 12% 88% / 0.242);
+ 
+  font-size:14px;
+  border-style: solid;
+  padding: 2px;
+  border-radius: 16px;
+}
+.House{
+   background:#ffffff;
+  border-color:hwb(0 12% 88% / 0.242);
+  font-size:14px;
+  border-style: solid;
+  padding: 2px;
+  border-radius: 16px;
+}
+.Chefs{
+  background-color:#faf7f2;
+  width:550px;
+  height:400px;
+  font-size:20px;
+ margin-top:32px;
+ margin-left:128px;
+ padding-left: 20px;
+ border-radius: 30px;
+}
+.Ask{
+  color:rgba(0, 0, 0, 0.23);
+  font-size:16px;
+}
+
+#menu {
+ 
+  padding: 60px 20px;
+  
+}
+
+#menu h3 {
+  font-size: 30px;
+ 
+ margin-left:15%;
+  color: #222;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.menu-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+
+
+.menu-card h3 {
+  color: #008080;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-card p {
+ display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.menu-card p .desc{
+  color:hwb(0 12% 88% / 0.411);
+  display:block;
+  margin-top:4px;
+  flex-basis: 100%;
+}
+.menu-card span {
+  font-weight: bold;
+  color:#216869;
+  margin-left:10px;
+  white-space: nowrap;
+}
+
+.note {
+ margin-top:70px;
+ margin-left:15%;
+  color: #777;
+  font-size: 0.9em;
+}
+#hours {
+  background-color: #e9e3db;
+  padding: 60px 20px;
+}
+
+.info-grid {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 25px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  color:hwb(0 12% 88%) ;
+  margin-bottom: 15px;
+}
+.walk{
+  color: hwb(0 12% 88% / 0.288);
+}
+.hours-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size:12px;
+  justify-content: space-between
+}
+
+.hours-table td {
+  padding: 6px 0;
+  color: hwb(0 12% 88% / 0.722);
+}
+
+.hours-table td {
+  font-weight: bold;
+  width: 40%;
+}
+
+.hours-table tr {
+  border-bottom: 1px solid #eee;
+}
+
+.map-card {
+  background-image: url(../images/map.png);
+  background-size: cover;     
+  background-position: center;
+  border-radius: 16px; 
+ 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.line{
+  height: 2px;          
+  background:hwb(0 12% 88% / 0.279) ;   
+  margin: 16px 0;        
+  border-radius: 1px;
+}
+.site-12428120{
+  text-align:center;
+}
+.site-12428120 span{
+  color:#216869;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;              
+    justify-content: center;      
+    gap: 5px;
+    padding: 8px 0;
+  }
+
+  .logo {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: nowrap;             
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .nav-links a {
+    font-size: 14px;              
+    padding: 6px 8px;             
+  }
+
+  .hero {
+    height: 380px;
+  }
+
+  .hello {
+    font-size: 26px;
+  }
+
+  .prg {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .view {
+    width: 90px;
+    height: 35px;
+    font-size: 13px;
+  }
+
+  #about {
+    margin-left:4px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box1,.Chefs {
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+  }
+
+  .menu-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-card {
+    width: 90%;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+  .site-12428120{
+    font-size:14px;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 16px 30px;
+  }
+
+  .menu-container {
+    gap: 15px;
+  }
+
+  .box1,.Chefs {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    height: 500px;
+  }
+  .site-12428120{
+    font-size:14px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .navbar {
+    max-width: 1200px;
+  }
+}
