@@ -307,6 +307,9 @@ section img{
 .walk{
   color: hwb(0 12% 88% / 0.288);
 }
+.email{
+  color:#008080;
+}
 .hours-table {
   width: 100%;
   border-collapse: collapse;
